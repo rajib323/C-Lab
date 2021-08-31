@@ -29,7 +29,7 @@ int main(){
     }
     double k=floor(sum_inch/12);
     /*sum_feet=sum_feet+floor(sum_inch/12);*/
-    sum_inch=sum_inch-k*12;
+    sum_inch=sum_inch-k*12.0;
 
     cout<<"\nFeet Sum : "<<sum_feet+k<<endl;
     cout<<"\nInch Sum : "<<sum_inch<<endl;
